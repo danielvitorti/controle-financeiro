@@ -32,7 +32,8 @@ namespace Financas
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
-
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Close();
         }
     }
 }

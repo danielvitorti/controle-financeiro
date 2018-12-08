@@ -253,5 +253,15 @@ namespace Financas
         {
             this.Close();
         }
+
+        private void lbTransacoes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbTransacoes_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MessageBox.Show(e.KeyChar.ToString());
+        }
     }
 }

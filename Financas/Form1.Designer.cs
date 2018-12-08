@@ -247,6 +247,8 @@
             this.lbTransacoes.Name = "lbTransacoes";
             this.lbTransacoes.Size = new System.Drawing.Size(421, 322);
             this.lbTransacoes.TabIndex = 6;
+            this.lbTransacoes.SelectedIndexChanged += new System.EventHandler(this.lbTransacoes_SelectedIndexChanged);
+            this.lbTransacoes.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.lbTransacoes_KeyPress);
             // 
             // label_tag_Transactions
             // 
